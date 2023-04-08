@@ -19,12 +19,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "heroku-prebuild": "npm install --force --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "npm install --force && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "ci": "npm install --legacy-peer-deps=true"
+    "ci": "npm install --legacy-peer-deps=true",
+    "install": ""
   },
   "eslintConfig": {
     "extends": [
